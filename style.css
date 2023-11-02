@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+  }
+
+  .task-input {
+    margin: 20px 0;
+    
+  }
+  .task-input #task{
+    height: 30px;
+    width: 420px;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.25),
+    inset -5px -5px 10px rgba(255, 255, 255, 0.1);
+  }  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.5),
+    inset -15px -15px 20px rgba(255, 255, 255, 0.1);
+  }
+
+  #pendingTasks{
+    position: relative;
+    margin: 30px;
+    padding: 30px;
+    box-sizing: content-box;
+    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.5),
+    inset -15px -15px 20px rgba(255, 255, 255, 0.1);
+
+  }
+
+  #completedTasks{
+    position: relative;
+    margin: 30px;
+    padding: 30px;
+    box-sizing: content-box;
+    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.5),
+    inset -15px -15px 20px rgba(255, 255, 255, 0.1);
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px 0;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
